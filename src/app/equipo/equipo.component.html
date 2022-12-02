@@ -1,5 +1,20 @@
 <p>Nombre</p>
-<input type="text" [(ngModel)]="name">
-<button (click)="search()">Buscar</button>
-<img src="{{urlImg}}" alt="Image Pokemon">
+<div class="button">
+    <input type="text" [(ngModel)]="name">
+    <button (click)="search()">Buscar</button>
+</div>
+<p>{{urlNam}}</p>
+<div class="image">
+    <img src="{{urlImg}}" alt="Image Pokemon">
+</div>
+<p>Id: {{urlId}}</p>
+<p>Type: {{urlType}} {{urlType2}}</p> 
+<p>Height: {{urlHeight}}</p> 
+<p>Hp: {{urlHp}}</p> 
+<p>Attack: {{urlAtt}}</p>
+<p>Defense: {{urlDef}}</p>
+<p>Special Attack: {{urlSpAtt}}</p>
+<p>Special Defence: {{urlSpDef}}</p>
+<p>Speed: {{urlSpeed}}</p>
+
 
