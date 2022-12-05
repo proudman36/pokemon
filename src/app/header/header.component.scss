@@ -23,6 +23,10 @@ a{
 .menuHam{
     display:none;
 }
+#logo_personal{
+    display:none;
+}
+
 @media screen and (max-width: 1180px){
     header{
         flex-wrap: wrap;
@@ -49,5 +53,9 @@ a{
     li{
         border-bottom: 1px solid black;
     }
-
+    #logo_personal{
+        display:block;
+        width:50px;
+        height:50px;
+    }
 }
