@@ -1,27 +1,24 @@
-# Pokemon
-
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.0.0.
-
-## Development server
-
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
-
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+## Pokedex
+Se desarrolló un proyecto mobil en el que se le permite
+al usuario utilizar una pokedex. Con esta el podrá acceder
+a los pokemons de la primera generación mediante un buscador,
+un menú de equipo y una lista de los 151 pokemons.
+# Pasos
+- Se realizó un Backlog en el cual se definió cuales eran los 
+  pasos a seguir para la elaboración del proyecto.
+- Se creó el diseño en Figma para defenir el aspecto de la página, 
+  este diseño debió ser mobile-first.
+- Se realizó un nuevo proyecto de Angular, en el que debía contar 
+  con una carpeta de servicios, que serviría para conectar la 
+  la aplicación con la api de Pokémon.
+- Se crearon los componentes del header, buscador, equipo y pokemons.
+- Se modificaron los elementos de HTML, SCSS y TS para añadirle 
+  funcionalidad y estilos a los componentes.
+- Se enlazaron algunos componentes con la carpeta de servicios
+  para que pudieran utilizar características de la api.
+# ¿Qué se entregó?
+- header
+- buscador
+- equipo
+- lista de pokemons
+Todo hecho en Typescript, html y SCSS
