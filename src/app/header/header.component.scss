@@ -3,7 +3,11 @@ header{
     padding:20px 40px;
     justify-content: space-between;
     align-items: center;
+    background-color: yellow;
 
+}
+.logo{
+    color: cadetblue;
 }
 ul{
     display:flex;
@@ -14,14 +18,16 @@ li{
 }
 a{
     text-decoration: none;
+    color:cadetblue;
 }
 .menuHam{
     display:none;
 }
-@media screen and (max-width: 678px){
+@media screen and (max-width: 1180px){
     header{
         flex-wrap: wrap;
     }
+    
     .menuHam{
         display:block;
     }

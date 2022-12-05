@@ -1,4 +1,15 @@
 *{
     display:flex;
-    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color:rgb(252, 73, 73);
+    color:white;
+}
+
+button{
+    cursor:pointer;
+    border-color: white;
+}
+input{
+    border-color:white;
 }

@@ -8,6 +8,10 @@ import { HttpClientModule } from '@angular/common/http';
 import { FormsModule} from '@angular/forms';
 import { PokemonsComponent } from './pokemons/pokemons.component';
 import { TeamComponent } from './team/team.component';
+import { AppRoutingModule } from './app-routing.module';
+import { GaleriaComponent } from './galeria/galeria.component';
+import { HomeComponent } from './home/home.component';
+import { TeamsComponent } from './teams/teams.component';
 
 @NgModule({
     declarations: [
@@ -15,7 +19,10 @@ import { TeamComponent } from './team/team.component';
         HeaderComponent,
         EquipoComponent,
         PokemonsComponent,
-        TeamComponent
+        TeamComponent,
+        GaleriaComponent,
+        HomeComponent,
+        TeamsComponent
     ],
     providers: [],
     bootstrap: [AppComponent],
@@ -23,6 +30,7 @@ import { TeamComponent } from './team/team.component';
         BrowserModule,
         HttpClientModule,
         FormsModule,
+        AppRoutingModule,
     ]
 })
 export class AppModule { }
