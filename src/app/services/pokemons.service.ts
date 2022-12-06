@@ -8,7 +8,7 @@ import {HttpClient} from '@angular/common/http'
 
     }
     getPokemons(){
-        return this.http.get('https://pokeapi.co/api/v2/pokemon?limit=152');
+        return this.http.get('https://pokeapi.co/api/v2/pokemon?limit=151');
     }
     getMoreData(name: string){
         return this.http.get('https://pokeapi.co/api/v2/pokemon/'+name);
