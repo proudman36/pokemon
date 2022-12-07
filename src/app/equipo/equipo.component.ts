@@ -48,7 +48,7 @@ export class EquipoComponent implements OnInit{
       this.urlSpeed = data.stats[5].base_stat
 
       
-      console.log(data);
+      console.log(data)
     })
   }
 }
